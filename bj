@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack Counter</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body { font-family: sans-serif; background: #111; color: #0f0; text-align: center; padding: 1em; }
+    video { width: 100%; max-width: 400px; margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Blackjack Counter</h1>
+  <button onclick="scan()">Scan Cards</button>
+  <div id="output">Running Count: 0<br>True Count: 0</div>
+  <video id="video" autoplay></video>
+
+  <script src="script.js"></script>
+</body>
+</html>
